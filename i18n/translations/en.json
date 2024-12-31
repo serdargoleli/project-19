@@ -1,0 +1,17 @@
+{
+  "hello": "Hello",
+  "homepage": "Homepage",
+  "dashboard": "Dashboard",
+  "parkingManagement": "Parking Management",
+  "parkingStatus": "Parking Status",
+  "floor": "Floor",
+  "floor1": "Floor 1",
+  "floor2": "Floor 2",
+  "floor3": "Floor 3",
+  "empty": "Empty",
+  "occupied": "Occupied",
+  "logout": "Logout",
+  "lastMovements": "Last Movements",
+  "active": "Aktif",
+  "passive": "Arızalı"
+}

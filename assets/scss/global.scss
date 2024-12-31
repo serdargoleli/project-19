@@ -1,0 +1,34 @@
+@use "base.scss";
+@use "sidebar";
+@use "table";
+@use "buttons";
+@use "details_sidebar";
+@use "form_items";
+@use "elements";
+@use "home";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html,
+body,
+#__next {
+  @apply h-full dark:bg-layoutBgDark bg-layoutBgLight;
+}
+
+
+* {
+  font-family: 'Noto Sans', sans-serif !important;
+  @apply text-sm ;
+
+  &,
+  &:focus,
+  &:active {
+    @apply outline-none #{!important};
+  }
+}

@@ -1,0 +1,129 @@
+.input-box {
+  @apply flex flex-col w-full;
+  // 3lü input grupu için kullanılır
+  &.input-resize {
+    @apply w-full;
+  }
+
+  &.cs-hidden {
+    @apply hidden;
+  }
+
+  label {
+    @apply text-gray-600 dark:text-gray-400 font-normal tracking-wide text-base mb-0.5;
+  }
+
+}
+
+
+.p-inputtext {
+  @apply p-2.5 md:p-3.5 rounded-2xl focus:border-orange-500 bg-white #{!important};
+  &:focus, &:enabled:hover, &:enabled:focus {
+    box-shadow: none;
+    @apply shadow-none border-orange-500  #{!important};
+  }
+}
+
+.p-inputnumber-input {
+  @apply w-full;
+}
+
+.p-inputtext,
+.p-multiselect, {
+  @apply dark:bg-sidebarBgDark bg-white dark:border-gray-700 text-textLight
+  dark:text-textDark dark:placeholder:text-gray-700 placeholder:text-gray-400
+  text-sm lg:text-base ;
+}
+
+//dropdown label
+.p-multiselect-label.p-placeholder,
+.p-dropdown-label.p-dropdown-label.p-placeholder {
+  @apply text-gray-400 dark:text-gray-700;
+}
+
+.checkbox-input {
+  @apply flex flex-row-reverse gap-x-2 justify-end items-center  #{!important};
+  label {
+    @apply mb-0 cursor-pointer text-sm;
+  }
+}
+
+// Input altındaki bilgi metni
+.input-info-text {
+  @apply text-gray-500 text-sm  inline-block ;
+}
+
+.input-file {
+  @apply cursor-pointer w-full min-h-[50px]
+  flex items-center justify-center text-white font-semibold text-sm
+  bg-white dark:bg-sidebarBgDark  border border-dashed border-gray-400 dark:border-gray-700 rounded-2xl
+  hover:bg-gray-300 dark:hover:bg-gray-700 transition-all duration-200 ease-in-out;
+}
+
+
+.p-dropdown-panel, .p-dropdown-header, .p-multiselect-panel, .p-multiselect-header {
+  @apply dark:bg-[#101014] bg-white dark:border-gray-700;
+}
+
+.p-dropdown-items .p-dropdown-item, .p-multiselect-items .p-multiselect-item {
+  @apply dark:text-textDark;
+  &:not(.p-highlight):not(.p-disabled):hover, &.p-highlight {
+    @apply bg-orange-500/10 text-orange-500 #{!important};
+  }
+}
+
+
+.react-tel-input {
+  font-size: unset;
+  z-index: 1;
+  position: relative;
+
+  .form-control {
+    height: unset;
+    border-radius: unset;
+    //font-size: unset;
+    @apply relative text-base pl-12  ;
+
+
+    &.p-inputtext {
+      @apply w-full h-auto rounded-2xl text-sm lg:text-base  ;
+    }
+  }
+}
+
+.react-tel-input {
+  .flag-dropdown {
+    &, &.open {
+      @apply bg-transparent border-0;
+    }
+
+  }
+
+  .country-list .search {
+    @apply p-0;
+    input {
+      @apply ml-0 p-4;
+    }
+  }
+}
+
+.country-list {
+  margin: unset;
+  @apply my-0 rounded-2xl;
+}
+
+.input-group {
+  @apply grid grid-cols-1 lg:grid-cols-2 gap-3 ;
+}
+
+.btn-checkbox {
+  @apply transition-all border border-gray-200 text-black py-2 rounded-lg cursor-pointer bg-white hover:border-orange-500 hover:text-orange-500;
+
+  &-passive {
+    @apply border-gray-200 text-gray-500 bg-gray-200 hover:border-gray-200 hover:text-gray-500 line-through pointer-events-none;
+  }
+
+  &.active {
+    @apply border-orange-500 text-orange-500;
+  }
+}

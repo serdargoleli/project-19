@@ -1,0 +1,92 @@
+.p-sidebar {
+  @apply w-full md:w-[30rem] dark:bg-sidebarBgDark bg-layoutBgLight #{!important};
+
+  .detail-sidebar-header {
+    @apply mb-8;
+    .detail-sidebar-title {
+      @apply text-lg lg:text-2xl font-medium dark:text-textDark;
+    }
+
+    h2 {
+      @apply text-base lg:text-lg;
+    }
+  }
+
+  .detail-sidebar-box {
+    .detail-sidebar-item {
+      &:not(:last-child) {
+        @apply mb-4;
+      }
+    }
+
+    @apply rounded-lg dark:bg-layoutBgDark bg-gray-200 p-4 w-[48.7%];
+  }
+
+  .detail-sidebar-item {
+    @apply flex flex-col-reverse;
+    h3 {
+      @apply  text-gray-500 font-light;
+    }
+
+    span {
+      @apply text-xs lg:text-sm font-normal text-textLight dark:text-textDark break-words;
+    }
+  }
+
+  .detail-sidebar-content {
+    @apply flex flex-wrap justify-between gap-3;
+  }
+
+  .sidebar-box-full {
+    @apply w-full;
+  }
+
+  .socket-box-container {
+    @apply flex gap-3 w-full;
+
+    .socket-box {
+      @apply w-1/2  bg-[rgba(21,21,27,0.54)] rounded-lg p-3;
+    }
+
+    .socket-item {
+      @apply w-full mb-2;
+    }
+  }
+
+  .sidebar-link {
+    @apply py-5 hover:pl-5
+    inline-block transition-all dark:text-textDark text-textLight  hover:rounded-lg
+    hover:bg-gray-800 dark:hover:bg-white hover:bg-opacity-5 dark:hover:bg-opacity-5
+    border-b border-solid dark:border-gray-700 border-gray-300 ;
+  }
+}
+
+.details-small-box {
+  @apply border p-3 lg:p-4 w-1/4 text-center flex flex-col items-center bg-layoutBgLight dark:bg-sidebarBgDark border-gray-200 dark:border-gray-800  ;
+  &:first-child {
+    @apply rounded-tl-lg rounded-bl-lg;
+  }
+
+  &:last-child {
+    @apply rounded-tr-lg rounded-br-lg;
+  }
+
+  .span-title {
+    @apply text-xs lg:text-lg mb-1;
+  }
+
+  .span-icon svg {
+    @apply w-5 h-5;
+  }
+}
+
+.social-media-link {
+  @apply p-3 text-lg border border-gray-400 dark:border-gray-600 bg-white bg-opacity-20  dark:bg-opacity-5 rounded-lg hover:bg-opacity-100
+  transition-all cursor-pointer dark:text-gray-400 dark:hover:bg-opacity-20;
+}
+
+.text-link {
+  @apply underline cursor-pointer text-sm
+  text-gray-400 hover:text-gray-500
+  dark:text-gray-500 ;
+}

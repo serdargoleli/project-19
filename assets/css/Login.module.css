@@ -1,0 +1,18 @@
+.authPage {
+    @apply bg-layoutBgDark relative h-full;
+}
+
+.authCard {
+    @apply w-full md:w-2/4 lg:w-3/12 mx-auto rounded-2xl p-8 bg-gray-900 border border-black/40
+    absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2;
+
+    .input-box {
+        .p-inputtext {
+            @apply text-white;
+        }
+    }
+}
+
+.authCardTitle {
+    @apply text-textDark font-medium text-3xl mb-5;
+}

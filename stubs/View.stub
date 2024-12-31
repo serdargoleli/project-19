@@ -1,0 +1,4 @@
+const @Name@ = () => {
+  return <>@Name@</>;
+};
+export default @Name@;

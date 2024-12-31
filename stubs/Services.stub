@@ -1,0 +1,8 @@
+import BaseServices from "./BaseServices";
+
+class @Name@Services extends BaseServices {
+  constructor() {
+    super("endpoind/path");
+  }
+}
+export default @Name@Services;

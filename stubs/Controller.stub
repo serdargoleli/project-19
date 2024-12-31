@@ -1,0 +1,12 @@
+import BaseController from "./BaseController";
+import @Name@Services from "@/services/@Name@Services";
+
+class @Name@Controller extends BaseController {
+  model = new @Name@Services();
+  constructor(model) {
+    super(model);
+  }
+
+}
+
+export default new @Name@Controller();

@@ -1,0 +1,91 @@
+/* 
+    burada primereacttan gelen biileşenlerin tasarım düzenlemesi var
+*/
+.p-steps {
+  @apply lg:mb-0 sticky top-0 lg:static z-50 shadow-xl lg:shadow-none;
+  ul {
+    @apply w-full overflow-y-scroll py-5 bg-white lg:bg-transparent mb-4 lg:mb-0 rounded-lg ;
+  }
+
+  .p-steps-item {
+    @apply before:content-none before:border-gray-300 dark:before:border-gray-600
+    lg:before:content-[""]
+    lg:justify-center lg:px-4;
+
+    &.p-highlight {
+      .p-steps-title {
+        @apply font-normal text-orange-500 #{!important};
+      }
+
+      .p-steps-number {
+        @apply bg-orange-500 border-orange-500 text-white #{!important};
+      }
+    }
+
+    .p-menuitem-link {
+      @apply bg-transparent flex-col-reverse lg:flex-col;
+      &:not(.p-disabled):focus {
+        @apply shadow-none;
+      }
+
+      .p-steps-title {
+        @apply dark:text-gray-300 text-sm  mt-0 lg:h-auto;
+      }
+
+      .p-steps-number {
+        @apply border-gray-300 dark:bg-layoutBgDark dark:border-layoutBgDark dark:text-textDark shadow-2xl shadow-slate-300/20
+        h-0.5 w-full overflow-hidden text-orange-500
+        lg:h-8 lg:w-8 lg:overflow-visible lg:text-gray-500;
+      }
+    }
+  }
+}
+
+
+.p-accordion {
+  &-header {
+    a {
+      @apply flex-row-reverse justify-between;
+    }
+  }
+}
+
+
+.p-datepicker {
+  @apply dark:bg-[#101014];
+  &:not(.p-datepicker-inline) .p-datepicker-header {
+    @apply dark:bg-[#101014];
+  }
+
+  &:not(.p-disabled) table td span:not(.p-highlight):not(.p-disabled):hover {
+    @apply dark:bg-gray-400 dark:bg-opacity-20;
+  }
+
+  & table {
+    th {
+      & > span {
+        @apply dark:text-gray-400;
+      }
+    }
+
+    td {
+
+      & > span {
+        @apply dark:text-gray-300;
+        &.p-highlight {
+          @apply bg-orange-500 bg-opacity-10 text-orange-500;
+        }
+      }
+
+      &.p-datepicker-today > span {
+        @apply bg-gray-100 dark:bg-opacity-10 text-textLight;
+      }
+    }
+  }
+
+  .p-timepicker {
+    .p-hour-picker, .p-minute-picker {
+      @apply dark:text-gray-400;
+    }
+  }
+}

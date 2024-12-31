@@ -1,0 +1,35 @@
+.mobil-screen {
+  @apply w-0 h-screen #{!important} ;
+}
+
+.view-mobil-screen {
+  @apply fixed z-[100] left-0 flex flex-col transition-all ease-in-out duration-75 overflow-y-scroll h-screen w-full md:w-5/12 #{!important};
+}
+
+.close-button-box {
+  @apply lg:hidden px-5 pt-5 flex justify-end items-center;
+}
+
+.sidebar-container {
+  @apply px-3;
+}
+
+.close-sidebar {
+  .sidebar-container {
+    @apply relative;
+    .text-box .menu-header-title, .down-arrow {
+      @apply hidden;
+    }
+
+    .menu-icon svg {
+      @apply w-7 h-7;
+
+    }
+  }
+
+  .aside {
+    @apply w-[80px] transition-all overflow-visible;
+  }
+}
+
+
