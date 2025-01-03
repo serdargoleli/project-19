@@ -28,7 +28,7 @@ const Header = ({
   return (
     <>
       <Head>
-        <title>{`${pageTitle} ~ VTL-Soft Digico`}</title>
+        <title>{`${pageTitle} ~ VTL-StyleScan`}</title>
       </Head>
       <nav className="nav">
         <div className="flex flex-row-reverse lg:flex-row items-center justify-between">

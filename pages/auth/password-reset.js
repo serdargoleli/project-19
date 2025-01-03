@@ -82,7 +82,7 @@ const PasswordReset = ({ host }) => {
   return (
     <div className={style.authPage}>
       <Head>
-        <title>Şifremi Unuttum ~ VTL-Soft Digico</title>
+        <title>Şifremi Unuttum ~ VTL-StyleScan</title>
       </Head>
       <div className={style.authCard}>
         <h1 className={style.authCardTitle}>{t("forgot_password")}</h1>

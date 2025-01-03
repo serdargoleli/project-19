@@ -55,7 +55,7 @@ const Sidebar = ({ darkMode, sidebarToggle, isMobile, isMobileMenu, setIsMobileM
       </div>
       <div className="flex gap-x-2 items-center p-6">
 
-        <h2 className="text-2xl font-bold text-orange-500">  {sidebarToggle ? "VTL" : "VTL-Soft Digico"}</h2>
+        <h2 className="text-2xl font-bold text-orange-500">  {sidebarToggle ? "VTL" : "VTL-StyleScan"}</h2>
       </div>
       <div className="sidebar-container" ref={sidebarContentRef}>
         <h2 className="px-6 mt-6 mb-2 text-gray-4 menu-text-title">Menü</h2>

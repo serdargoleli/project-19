@@ -3,6 +3,9 @@
   "products": "Ürünler",
   "cabin": "Kabinler",
   "reports": "Rapor",
+  "login": "Giriş Yap",
+  "email": "E-Posta",
+  "password": "Şifre",
   "productsPage": {
     "name": "Ürün Adı",
     "gender": "Cinsiyet",

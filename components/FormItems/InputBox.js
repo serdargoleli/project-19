@@ -156,7 +156,7 @@ const InputBox = ({
       <Field name={inputName}>
         {({ field, meta }) => (
           <>
-            <label htmlFor={field.name}>{label}</label>
+            <label className="input-box-label" htmlFor={field.name}>{label}</label>
             {renderInput(field, meta)}
             {meta.touched && meta.error && <small className="text-red-500">{t(meta.error)}</small>}
             {filePreview &&
