@@ -4,27 +4,27 @@
     "label": "home",
     "href": "/",
     "module": "public",
-    "icon": "HiOutlineChartPie"
+    "icon": "IoBodyOutline"
   },
   {
     "id": 20,
     "label": "products",
     "href": "/products",
     "module": "public",
-    "icon": "MdOutlineDevicesOther"
+    "icon": "IoPricetagOutline"
   },
   {
     "id": 30,
     "label": "cabin",
     "href": "/cabin",
     "module": "public",
-    "icon": "HiOutlineWrench"
+    "icon": "IoRadio"
   },
   {
     "id": 40,
     "label": "reports",
     "href": "/reports",
     "module": "public",
-    "icon": "HiOutlineWrench"
+    "icon": "IoBarChartOutline"
   }
 ]

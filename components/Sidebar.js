@@ -3,17 +3,15 @@ import React, { useRouter } from "next/router";
 import { memo, useEffect, useMemo, useRef, useState } from "react";
 import MenuList from "@/static/data/MenuListNew.json";
 import { useTranslation } from "react-i18next";
-import { HiOutlineChartPie, HiOutlineUsers, HiOutlineWrench } from "react-icons/hi2";
-import { IoCloseOutline } from "react-icons/io5";
+import { IoBarChartOutline, IoBodyOutline, IoCloseOutline, IoPricetagOutline, IoRadio } from "react-icons/io5";
 import CsButton from "@/components/Buttons/CsButton";
-import { MdOutlineDevicesOther } from "react-icons/md";
 
 
 const iconComponents = {
-  "HiOutlineChartPie": HiOutlineChartPie,
-  "HiOutlineUsers": HiOutlineUsers,
-  "MdOutlineDevicesOther": MdOutlineDevicesOther,
-  "HiOutlineWrench": HiOutlineWrench
+  "IoBodyOutline": IoBodyOutline,
+  "IoPricetagOutline": IoPricetagOutline,
+  "IoRadio": IoRadio,
+  "IoBarChartOutline": IoBarChartOutline
 };
 
 const renderIcon = (iconName) => {

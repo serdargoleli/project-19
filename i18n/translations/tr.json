@@ -2,5 +2,20 @@
   "home": "Anasayfa",
   "products": "Ürünler",
   "cabin": "Kabinler",
-  "reports": "Rapor"
+  "reports": "Rapor",
+  "productsPage": {
+    "name": "Ürün Adı",
+    "gender": "Cinsiyet",
+    "category": "Kategori",
+    "description": "Açıklama",
+    "price": "Fiyat",
+    "image": "Ürün Resmi"
+  },
+  "cabinPage": {
+    "cabinId": "Kabin Numarası",
+    "storeId": "Mağaza Numarası",
+    "storeName": "Mağaza Adı",
+    "location": "Kabin Bilgisi",
+    "status": "Durum"
+  }
 }

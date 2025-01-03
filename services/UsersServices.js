@@ -4,7 +4,7 @@ import { axiosInstance } from "@/services/ApiServices";
 
 class UsersServices extends BaseServices {
   constructor() {
-    super("equipment");
+    super("products");
   }
 
 

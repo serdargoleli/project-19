@@ -1,4 +1,4 @@
-export const USERS_MODULE = "equipment";
+export const USERS_MODULE = "products";
 export const STATIONS_MODULE = "stations";
 export const STATION_GROUPS_MODULE = "station_groups";
 export const TRANSACTIONS_MODULE = "transactions";

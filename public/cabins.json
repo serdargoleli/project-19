@@ -1,0 +1,142 @@
+[
+  {
+    "cabinId": "CAB001",
+    "storeId": "STR001",
+    "storeName": "VTL Mağaza Ankara",
+    "location": "Kadın 1.Kat 1.Kabin",
+    "status": "active"
+  },
+  {
+    "cabinId": "CAB002",
+    "storeId": "STR001",
+    "storeName": "VTL Mağaza Ankara",
+    "location": "Kadın 1.Kat 2.Kabin",
+    "status": "active"
+  },
+  {
+    "cabinId": "CAB003",
+    "storeId": "STR001",
+    "storeName": "VTL Mağaza Ankara",
+    "location": "Kadın 1.Kat 3.Kabin",
+    "status": "active"
+  },
+  {
+    "cabinId": "CAB004",
+    "storeId": "STR001",
+    "storeName": "VTL Mağaza Ankara",
+    "location": "Kadın 1.Kat 4.Kabin",
+    "status": "passive"
+  },
+  {
+    "cabinId": "CAB005",
+    "storeId": "STR001",
+    "storeName": "VTL Mağaza Ankara",
+    "location": "Kadın 1.Kat 5.Kabin",
+    "status": "active"
+  },
+  {
+    "cabinId": "CAB006",
+    "storeId": "STR001",
+    "storeName": "VTL Mağaza Ankara",
+    "location": "Erkek 2.Kat 1.Kabin",
+    "status": "active"
+  },
+  {
+    "cabinId": "CAB007",
+    "storeId": "STR001",
+    "storeName": "VTL Mağaza Ankara",
+    "location": "Erkek 2.Kat 2.Kabin",
+    "status": "passive"
+  },
+  {
+    "cabinId": "CAB008",
+    "storeId": "STR001",
+    "storeName": "VTL Mağaza Ankara",
+    "location": "Erkek 2.Kat 3.Kabin",
+    "status": "active"
+  },
+  {
+    "cabinId": "CAB009",
+    "storeId": "STR001",
+    "storeName": "VTL Mağaza Ankara",
+    "location": "Erkek 2.Kat 4.Kabin",
+    "status": "passive"
+  },
+  {
+    "cabinId": "CAB010",
+    "storeId": "STR001",
+    "storeName": "VTL Mağaza Ankara",
+    "location": "Erkek 2.Kat 5.Kabin",
+    "status": "active"
+  },
+  {
+    "cabinId": "CAB011",
+    "storeId": "STR001",
+    "storeName": "VTL Mağaza Ankara",
+    "location": "Kadın 3.Kat 1.Kabin",
+    "status": "active"
+  },
+  {
+    "cabinId": "CAB012",
+    "storeId": "STR001",
+    "storeName": "VTL Mağaza Ankara",
+    "location": "Kadın 3.Kat 2.Kabin",
+    "status": "passive"
+  },
+  {
+    "cabinId": "CAB013",
+    "storeId": "STR001",
+    "storeName": "VTL Mağaza Ankara",
+    "location": "Kadın 3.Kat 3.Kabin",
+    "status": "active"
+  },
+  {
+    "cabinId": "CAB014",
+    "storeId": "STR001",
+    "storeName": "VTL Mağaza Ankara",
+    "location": "Kadın 3.Kat 4.Kabin",
+    "status": "active"
+  },
+  {
+    "cabinId": "CAB015",
+    "storeId": "STR001",
+    "storeName": "VTL Mağaza Ankara",
+    "location": "Kadın 3.Kat 5.Kabin",
+    "status": "passive"
+  },
+  {
+    "cabinId": "CAB016",
+    "storeId": "STR001",
+    "storeName": "VTL Mağaza Ankara",
+    "location": "Erkek 4.Kat 1.Kabin",
+    "status": "active"
+  },
+  {
+    "cabinId": "CAB017",
+    "storeId": "STR001",
+    "storeName": "VTL Mağaza Ankara",
+    "location": "Erkek 4.Kat 2.Kabin",
+    "status": "passive"
+  },
+  {
+    "cabinId": "CAB018",
+    "storeId": "STR001",
+    "storeName": "VTL Mağaza Ankara",
+    "location": "Erkek 4.Kat 3.Kabin",
+    "status": "active"
+  },
+  {
+    "cabinId": "CAB019",
+    "storeId": "STR001",
+    "storeName": "VTL Mağaza Ankara",
+    "location": "Erkek 4.Kat 4.Kabin",
+    "status": "passive"
+  },
+  {
+    "cabinId": "CAB020",
+    "storeId": "STR001",
+    "storeName": "VTL Mağaza Ankara",
+    "location": "Erkek 4.Kat 5.Kabin",
+    "status": "active"
+  }
+]

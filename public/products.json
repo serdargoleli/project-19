@@ -1,0 +1,491 @@
+[
+  {
+    "id": 1,
+    "name": "Slim Fit Gömlek",
+    "category": "Üst Giyim",
+    "gender": "Kadın",
+    "sizes": [
+      "32 (XS)",
+      "34",
+      "36 (S)",
+      "38",
+      "40 (M)",
+      "42"
+    ],
+    "price": 399.99,
+    "description": "Günlük kullanım için ideal slim fit gömlek. Şık ve zarif bir tasarım.",
+    "image": "https://sky-static.mavi.com/mnresize/820/1162/1210662-86491_image_1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Regular Fit T-Shirt",
+    "category": "Üst Giyim",
+    "gender": "Erkek",
+    "sizes": [
+      "36 (S)",
+      "38",
+      "40 (M)",
+      "42",
+      "44 (L)",
+      "46"
+    ],
+    "price": 299.99,
+    "description": "Yumuşak pamuklu kumaştan üretilmiş rahat kesim t-shirt.",
+    "image": "https://sky-static.mavi.com/mnresize/820/1162/1612170-70057_image_1.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Skinny Fit Jean",
+    "category": "Alt Giyim",
+    "gender": "Kadın",
+    "sizes": [
+      "32 (XS)",
+      "34",
+      "36 (S)",
+      "38",
+      "40 (M)"
+    ],
+    "price": 499.99,
+    "description": "Esnek ve konforlu skinny fit jean pantolon.",
+    "image": "https://sky-static.mavi.com/mnresize/820/1162/1010763-88582_image_1.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Chino Pantolon",
+    "category": "Alt Giyim",
+    "gender": "Erkek",
+    "sizes": [
+      "38",
+      "40 (M)",
+      "42",
+      "44 (L)",
+      "46"
+    ],
+    "price": 549.99,
+    "description": "Modern ve rahat kesimli chino pantolon.",
+    "image": "https://sky-static.mavi.com/mnresize/820/1162/101153-85800_image_1.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Oversize Sweatshirt",
+    "category": "Üst Giyim",
+    "gender": "Kadın",
+    "sizes": [
+      "36 (S)",
+      "38",
+      "40 (M)",
+      "42",
+      "44 (L)",
+      "46"
+    ],
+    "price": 349.99,
+    "description": "Günlük kullanıma uygun, rahat kesimli oversize sweatshirt.",
+    "image": "https://sky-static.mavi.com/mnresize/820/1162/1010349-84192_image_1.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Şort",
+    "category": "Alt Giyim",
+    "gender": "Erkek",
+    "sizes": [
+      "36 (S)",
+      "38",
+      "40 (M)",
+      "42",
+      "44 (L)"
+    ],
+    "price": 229.99,
+    "description": "Sıcak yaz günleri için ideal rahat ve şık şort.",
+    "image": "https://sky-static.mavi.com/sys-master/maviTrImages/h8a/h1c/10064351330334/1410107-34686_image_1.jpg_Default-MainProductImage"
+  },
+  {
+    "id": 7,
+    "name": "Deri Kaban",
+    "category": "Dış Giyim",
+    "gender": "Kadın",
+    "sizes": [
+      "32 (XS)",
+      "34",
+      "36 (S)",
+      "38",
+      "40 (M)"
+    ],
+    "price": 799.99,
+    "description": "Ofis şıklığını tamamlayan blazer ceket.",
+    "image": "https://sky-static.mavi.com/mnresize/820/1162/1110545-87537_image_1.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Mont",
+    "category": "Dış Giyim",
+    "gender": "Erkek",
+    "sizes": [
+      "40 (M)",
+      "42",
+      "44 (L)",
+      "46",
+      "48 (XL)",
+      "50"
+    ],
+    "price": 999.99,
+    "description": "Soğuk kış günleri için ideal su geçirmez mont.",
+    "image": "https://sky-static.mavi.com/mnresize/820/1162/1110263-900_image_1.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Yüksek Bel Tayt",
+    "category": "Alt Giyim",
+    "gender": "Kadın",
+    "sizes": [
+      "32 (XS)",
+      "34",
+      "36 (S)",
+      "38",
+      "40 (M)"
+    ],
+    "price": 199.99,
+    "description": "Yüksek bel tasarımıyla günlük spor aktiviteleri için uygun tayt.",
+    "image": "https://sky-static.mavi.com/mnresize/820/1162/1010903-900_image_1.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Kargo Pantolon",
+    "category": "Alt Giyim",
+    "gender": "Erkek",
+    "sizes": [
+      "38",
+      "40 (M)",
+      "42",
+      "44 (L)",
+      "46",
+      "48 (XL)"
+    ],
+    "price": 459.99,
+    "description": "Çok cepli ve dayanıklı kumaştan üretilmiş kargo pantolon.",
+    "image": "https://sky-static.mavi.com/sys-master/maviTrImages/h1f/h24/10154040786974"
+  },
+  {
+    "id": 11,
+    "name": "Delikli Dantelli Bistiyer",
+    "category": "Üst Giyim",
+    "gender": "Kadın",
+    "sizes": [
+      "34",
+      "36 (S)",
+      "38",
+      "40 (M)",
+      "42"
+    ],
+    "price": 899.99,
+    "description": "Zarif ve şık tasarımıyla özel günler için ideal dantel elbise.",
+    "image": "https://sky-static.mavi.com/mnresize/820/1162/1210741-70057_image_1.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Kışlık Kazak",
+    "category": "Üst Giyim",
+    "gender": "Erkek",
+    "sizes": [
+      "36 (S)",
+      "38",
+      "40 (M)",
+      "42",
+      "44 (L)",
+      "46"
+    ],
+    "price": 349.99,
+    "description": "Kalın örgü kumaşıyla soğuk günler için uygun kazak.",
+    "image": "https://sky-static.mavi.com/mnresize/820/1162/171365-80196_image_1.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Deri Ceket",
+    "category": "Dış Giyim",
+    "gender": "Kadın",
+    "sizes": [
+      "34",
+      "36 (S)",
+      "38",
+      "40 (M)",
+      "42",
+      "44 (L)"
+    ],
+    "price": 1099.99,
+    "description": "Şık ve dayanıklı tasarımıyla zamansız bir deri ceket.",
+    "image": "https://sky-static.mavi.com/mnresize/820/1162/1110462-87011_image_2.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Spor Ceket",
+    "category": "Dış Giyim",
+    "gender": "Erkek",
+    "sizes": [
+      "40 (M)",
+      "42",
+      "44 (L)",
+      "46",
+      "48 (XL)",
+      "50"
+    ],
+    "price": 899.99,
+    "description": "Hafif ve rahat yapısıyla spor aktiviteler için ideal ceket.",
+    "image": "https://sky-static.mavi.com/mnresize/820/1162/1110199-83746_image_1.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Midi Etek",
+    "category": "Alt Giyim",
+    "gender": "Kadın",
+    "sizes": [
+      "32 (XS)",
+      "34",
+      "36 (S)",
+      "38",
+      "40 (M)"
+    ],
+    "price": 349.99,
+    "description": "Hafif kumaşı ve zarif tasarımıyla günlük kullanıma uygun midi etek.",
+    "image": "https://sky-static.mavi.com/mnresize/820/1162/1310583-88101_image_1.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Çiçek Desenli Gömlek",
+    "category": "Üst Giyim",
+    "gender": "Kadın",
+    "sizes": [
+      "32 (XS)",
+      "34",
+      "36 (S)",
+      "38",
+      "40 (M)"
+    ],
+    "price": 259.99,
+    "description": "Hafif ve şık çiçek desenli bluz.",
+    "image": "https://sky-static.mavi.com/mnresize/820/1162/1210759-87007_image_1.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Dar Kesim Kot Pantolon",
+    "category": "Alt Giyim",
+    "gender": "Erkek",
+    "sizes": [
+      "36 (S)",
+      "38",
+      "40 (M)",
+      "42",
+      "44 (L)"
+    ],
+    "price": 599.99,
+    "description": "Modern görünüm için dar kesim kot pantolon.",
+    "image": "https://sky-static.mavi.com/mnresize/820/1162/101441-87791_image_2.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Kot Elbise",
+    "category": "Üst Giyim",
+    "gender": "Kadın",
+    "sizes": [
+      "34",
+      "36 (S)",
+      "38",
+      "40 (M)",
+      "42",
+      "44 (L)"
+    ],
+    "price": 949.99,
+    "description": "Özel günler için şifon kumaştan yapılmış zarif elbise.",
+    "image": "https://sky-static.mavi.com/mnresize/820/1162/1310631-89234_image_1.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Polo Yaka T-Shirt",
+    "category": "Üst Giyim",
+    "gender": "Erkek",
+    "sizes": [
+      "38",
+      "40 (M)",
+      "42",
+      "44 (L)",
+      "46",
+      "48 (XL)"
+    ],
+    "price": 329.99,
+    "description": "Klasik polo yaka tasarımıyla rahat ve şık bir t-shirt.",
+    "image": "https://sky-static.mavi.com/sys-master/maviTrImages/h83/h87/10147597942814"
+  },
+  {
+    "id": 20,
+    "name": "Pileli Mini Etek",
+    "category": "Alt Giyim",
+    "gender": "Kadın",
+    "sizes": [
+      "32 (XS)",
+      "34",
+      "36 (S)",
+      "38",
+      "40 (M)"
+    ],
+    "price": 299.99,
+    "description": "Şık pile detaylarıyla mini etek.",
+    "image": "https://sky-static.mavi.com/mnresize/820/1162/1310520-87514_image_2.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Düz Kesim Kumaş Pantolon",
+    "category": "Alt Giyim",
+    "gender": "Erkek",
+    "sizes": [
+      "40 (M)",
+      "42",
+      "44 (L)",
+      "46",
+      "48 (XL)",
+      "50"
+    ],
+    "price": 549.99,
+    "description": "Ofis şıklığı için ideal düz kesim kumaş pantolon.",
+    "image": "https://sky-static.mavi.com/mnresize/820/1162/1010646-80736_image_1.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Kapüşonlu Yağmurluk",
+    "category": "Dış Giyim",
+    "gender": "Kadın",
+    "sizes": [
+      "36 (S)",
+      "38",
+      "40 (M)",
+      "42",
+      "44 (L)"
+    ],
+    "price": 499.99,
+    "description": "Su geçirmez özellikte hafif ve rahat yağmurluk.",
+    "image": "https://sky-static.mavi.com/mnresize/820/1162/1110218-70789_image_1.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Rüzgarlık",
+    "category": "Dış Giyim",
+    "gender": "Erkek",
+    "sizes": [
+      "40 (M)",
+      "42",
+      "44 (L)",
+      "46",
+      "48 (XL)"
+    ],
+    "price": 599.99,
+    "description": "Hafif kumaşı ve şık tasarımıyla rüzgar geçirmez ceket.",
+    "image": "https://sky-static.mavi.com/mnresize/820/1162/1110136-70123_image_1.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Uzun Kollu Kazak",
+    "category": "Üst Giyim",
+    "gender": "Kadın",
+    "sizes": [
+      "32 (XS)",
+      "34",
+      "36 (S)",
+      "38",
+      "40 (M)"
+    ],
+    "price": 399.99,
+    "description": "Soğuk günler için ideal yumuşak dokulu kazak.",
+    "image": "https://sky-static.mavi.com/mnresize/820/1162/1710249-88085_image_1.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Beyaz Gömlek",
+    "category": "Üst Giyim",
+    "gender": "Erkek",
+    "sizes": [
+      "38",
+      "40 (M)",
+      "42",
+      "44 (L)",
+      "46",
+      "48 (XL)"
+    ],
+    "price": 449.99,
+    "description": "Rahat ve şık görünüm için beyaz gömlek.",
+    "image": "https://sky-static.mavi.com/mnresize/820/1162/1210690-70057_image_1.jpg"
+  },
+  {
+    "id": 26,
+    "name": "Kısa Kollu Bluz",
+    "category": "Üst Giyim",
+    "gender": "Kadın",
+    "sizes": [
+      "34",
+      "36 (S)",
+      "38",
+      "40 (M)",
+      "42"
+    ],
+    "price": 249.99,
+    "description": "Yaz aylarında serin tutan hafif ve şık bluz.",
+    "image": "https://sky-static.mavi.com/mnresize/820/1162/1710481-82127_image_1.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Hırka",
+    "category": "Üst Giyim",
+    "gender": "Erkek",
+    "sizes": [
+      "36 (S)",
+      "38",
+      "40 (M)",
+      "42",
+      "44 (L)",
+      "46"
+    ],
+    "price": 399.99,
+    "description": "Soğuk havalarda kullanım için sıcak tutan triko hırka.",
+    "image": "https://sky-static.mavi.com/mnresize/820/1162/1710386-84182_image_1.jpg"
+  },
+  {
+    "id": 28,
+    "name": "İpek Şal",
+    "category": "Aksesuar",
+    "gender": "Kadın",
+    "sizes": [
+      "Tek Beden"
+    ],
+    "price": 199.99,
+    "description": "Zarif tasarımıyla her kombine uyum sağlayan ipek şal.",
+    "image": "https://sky-static.mavi.com/mnresize/820/1162/1912948-33004_image_1.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Deri Mont",
+    "category": "Mont",
+    "gender": "Erkek",
+    "sizes": [
+      "40",
+      "41",
+      "42",
+      "43",
+      "44"
+    ],
+    "price": 799.99,
+    "description": "Spor ve klasik görünümü ile her tarza uygun.",
+    "image": "https://sky-static.mavi.com/mnresize/820/1162/1110572-900_image_1.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Dik Yaka Siyah Crop Şişme Mont",
+    "category": "Mont",
+    "gender": "Kadın",
+    "sizes": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ],
+    "price": 699.99,
+    "description": "Özel günler ve gündelik kullanım için ideal şişme mont.",
+    "image": "https://sky-static.mavi.com/mnresize/820/1162/1110482-900_image_1.jpg"
+  }
+]
